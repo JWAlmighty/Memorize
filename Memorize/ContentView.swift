@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+<<<<<<< HEAD
 // changes
 struct ContentView: View {
     var body: some View {
@@ -16,10 +17,22 @@ struct ContentView: View {
             CardView()
         }
         .foregroundColor(.orange)
+=======
+
+struct ContentView: View {
+    var body: some View {
+        VStack {
+            Image(systemName: "globe")
+                .imageScale(.large)
+                .foregroundStyle(.tint)
+            Text("Hello, world!")
+        }
+>>>>>>> 75a82ea3ec451eac01519770d1a1ca0edd988c87
         .padding()
     }
 }
 
+<<<<<<< HEAD
 struct CardView: View{
     var isFaceUp: Bool = false
     var body: some View{
@@ -42,6 +55,8 @@ struct CardView: View{
 
 
 
+=======
+>>>>>>> 75a82ea3ec451eac01519770d1a1ca0edd988c87
 #Preview {
     ContentView()
 }
