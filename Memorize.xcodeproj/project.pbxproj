@@ -7,20 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		37B167362B6F0DAF008D31C6 /* MemorizeGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B167352B6F0DAF008D31C6 /* MemorizeGame.swift */; };
 		37B167382B6F0F51008D31C6 /* EmojiMemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B167372B6F0F51008D31C6 /* EmojiMemoryGame.swift */; };
+		37B1673A2B6FC7EE008D31C6 /* MemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B167392B6FC7EE008D31C6 /* MemoryGame.swift */; };
 		37EDF87C2B6DF0F60052EC58 /* MemorizeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EDF87B2B6DF0F60052EC58 /* MemorizeApp.swift */; };
-		37EDF87E2B6DF0F60052EC58 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EDF87D2B6DF0F60052EC58 /* ContentView.swift */; };
+		37EDF87E2B6DF0F60052EC58 /* EmojiMemoryGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EDF87D2B6DF0F60052EC58 /* EmojiMemoryGameView.swift */; };
 		37EDF8802B6DF0FA0052EC58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37EDF87F2B6DF0FA0052EC58 /* Assets.xcassets */; };
 		37EDF8832B6DF0FA0052EC58 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37EDF8822B6DF0FA0052EC58 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		37B167352B6F0DAF008D31C6 /* MemorizeGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorizeGame.swift; sourceTree = SOURCE_ROOT; };
 		37B167372B6F0F51008D31C6 /* EmojiMemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGame.swift; sourceTree = "<group>"; };
+		37B167392B6FC7EE008D31C6 /* MemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGame.swift; sourceTree = "<group>"; };
 		37EDF8782B6DF0F60052EC58 /* Memorize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memorize.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37EDF87B2B6DF0F60052EC58 /* MemorizeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorizeApp.swift; sourceTree = "<group>"; };
-		37EDF87D2B6DF0F60052EC58 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		37EDF87D2B6DF0F60052EC58 /* EmojiMemoryGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGameView.swift; sourceTree = "<group>"; };
 		37EDF87F2B6DF0FA0052EC58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		37EDF8822B6DF0FA0052EC58 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -55,10 +55,10 @@
 		37EDF87A2B6DF0F60052EC58 /* Memorize */ = {
 			isa = PBXGroup;
 			children = (
-				37B167352B6F0DAF008D31C6 /* MemorizeGame.swift */,
+				37B167392B6FC7EE008D31C6 /* MemoryGame.swift */,
 				37B167372B6F0F51008D31C6 /* EmojiMemoryGame.swift */,
 				37EDF87B2B6DF0F60052EC58 /* MemorizeApp.swift */,
-				37EDF87D2B6DF0F60052EC58 /* ContentView.swift */,
+				37EDF87D2B6DF0F60052EC58 /* EmojiMemoryGameView.swift */,
 				37EDF87F2B6DF0FA0052EC58 /* Assets.xcassets */,
 				37EDF8812B6DF0FA0052EC58 /* Preview Content */,
 			);
@@ -143,9 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37EDF87E2B6DF0F60052EC58 /* ContentView.swift in Sources */,
+				37EDF87E2B6DF0F60052EC58 /* EmojiMemoryGameView.swift in Sources */,
 				37EDF87C2B6DF0F60052EC58 /* MemorizeApp.swift in Sources */,
-				37B167362B6F0DAF008D31C6 /* MemorizeGame.swift in Sources */,
+				37B1673A2B6FC7EE008D31C6 /* MemoryGame.swift in Sources */,
 				37B167382B6F0F51008D31C6 /* EmojiMemoryGame.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
